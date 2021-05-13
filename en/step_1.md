@@ -1,59 +1,28 @@
-## Introduction
+The `glide`{:class="block3motion"} blocks in Scratch can be used to move a sprite across the Stage. 
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+A sprite can `glide`{:class="block3motion"} to a specific point (coordinates), a `random postion`{:class="block3motion"}, the `mouse pointer`{:class="block3motion"}, or to another sprite.
 
-### What you will make
+Positon your sprites in their starting points then select the sprite that is going to glide. 
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+Drag a `glide (1) secs to x: y:`{:class="block3motion"} block into the Code area but don't attach it to any other blocks yet. This block has the coordinates of the starting point and will be used later to make the sprite return.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+Drag a `glide (1) secs to (random position v)`{:class="block3motion"} block into the Code area and add it to your code at the point you want the sprite to move. 
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+Click on the dropdown menu and select the name of the sprite you want to `glide`{:class="block3motion"} towards:
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
+![The drop down menu for the glide block showing other sprites in the list.](images/glide-menu.png)
 
-+ A computer or tablet capable of running Scratch 3
+Starting point
 
-### Software
+![The Stage with both cat and cake sprites in their starting position.](images/example-start.png)
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
+End point
 
-### Downloads
+![The Stage showing the cat sprite has glided to the cake sprite.](images/example-end.png)
 
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
+Finally, drag the `glide (1) secs to x: y:`{:class="block3motion"} block, that is already in the Code area, to `glide`{:class="block3motion"} back to the start: 
 
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+```blocks3
+glide (1) secs to (Cake v)
+glide (1) secs to x: (-150) y:(-80)
+```
