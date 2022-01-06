@@ -1,30 +1,30 @@
-The `glide`{:class="block3motion"} blocks in Scratch can be used to move a sprite across the Stage.
+De `schuif`{:class="block3motion"} blokken in Scratch kunnen worden gebruikt om een sprite over het speelveld te laten bewegen.
 
-A sprite can `glide`{:class="block3motion"} to a specific point (coordinates), a `random postion`{:class="block3motion"}, the `mouse pointer`{:class="block3motion"}, or to another sprite.
+Een sprite kan `schuiven`{:class="block3motion"} naar een specifiek punt (coördinaten), een `willekeurige positie`{:class="block3motion"}, de `muisaanwijzer`{:class="block3motion"}, of naar een andere sprite.
 
-Positon your sprites in their starting points then select the sprite that is going to glide:
+Plaats je sprites in hun startposities en selecteer vervolgens de sprite die gaat glijden:
 
-![The Stage with both cat and cake sprites in their starting position.](images/example-start.png)
+![Het speelveld met zowel kat- als cake-sprites in hun startpositie.](images/example-start.png)
 
-Drag a `glide (1) secs to x: y:`{:class="block3motion"} block into the Code area but don't attach it to any other blocks yet. This block has the coordinates of the starting point and will be used later to make the sprite return:
+Sleep een `schuif in (1) sec naar x: y:`{:class="block3motion"} blok naar het codegebied, maar bevestig het nog niet aan andere blokken. Dit blok heeft de coördinaten van het startpunt en zal later worden gebruikt om de sprite terug te laten keren:
 
 ```blocks3
 glide (1) secs to x: (-150) y:(-80) // your numbers will be different
 ```
 
-Drag a `glide (1) secs to (random position v)`{:class="block3motion"} block into the Code area and add it to your code at the point you want the sprite to move.
+Sleep een `schuif in (1) sec naar (willekeurige positie v)`{:class="block3motion"} blok in het codegebied en voeg het toe aan je code op het punt waar je de sprite wilt laten bewegen.
 
-Click on the dropdown menu and select the name of the sprite you want to `glide`{:class="block3motion"} towards:
+Klik op het vervolgkeuzemenu en selecteer de naam van de sprite waarnaar je wilt `glijden`{:class="block3motion"}:
 
-![The drop down menu for the glide block showing other sprites in the list.](images/glide-menu.png)
+![Het vervolgkeuzemenu voor het schuifblok met andere sprites in de lijst.](images/glide-menu.png)
 
 ```blocks3
 glide (1) secs to (Cake v)
 ```
 
-![The Stage showing the cat sprite has glided to the cake sprite.](images/example-end.png)
+![Het speelveld met de kat-sprite naar de cake-sprite geschoven.](images/example-end.png)
 
-Finally, drag the `glide (1) secs to x: y:`{:class="block3motion"} block, that is already in the Code area, to your script to `glide`{:class="block3motion"} back to the start:
+Sleep ten slotte het `schuif in (1) sec naar x: y:`{:class="block3motion"} blok, dat al in het codegebied staat, naar je script om terug naar het begin `te schuiven`{:class="block3motion"}:
 
 ```blocks3
 glide (1) secs to (Cake v)
