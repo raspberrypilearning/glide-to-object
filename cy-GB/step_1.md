@@ -1,30 +1,30 @@
-The `glide`{:class="block3motion"} blocks in Scratch can be used to move a sprite across the Stage.
+Mae'r blociau `llithro`{:class="block3motion"} yn gallu cael eu defnyddio i symud corlun ar draws y Llwyfan.
 
-A sprite can `glide`{:class="block3motion"} to a specific point (coordinates), a `random postion`{:class="block3motion"}, the `mouse pointer`{:class="block3motion"}, or to another sprite.
+Gall corlun `lithro`{:class="block3motion"} i bwynt penodol (cyfesurynnau), `safle ar hap`{:class="block3motion"}, `pwyntydd llygoden`{:class="block3motion"}, neu i gorlun arall.
 
-Positon your sprites in their starting points then select the sprite that is going to glide:
+Lleola dy gorluniau yn eu mannau cychwyn wedyn dewis y corlun sy'n mynd i lithro:
 
-![The Stage with both cat and cake sprites in their starting position.](images/example-start.png)
+![Y Llwyfan gyda'r corluniau cath a chacen yn eu mannau cychwyn.](images/example-start.png)
 
-Drag a `glide (1) secs to x: y:`{:class="block3motion"} block into the Code area but don't attach it to any other blocks yet. This block has the coordinates of the starting point and will be used later to make the sprite return:
+Llusga floc `llithro (1) eiliad i x: y:`{:class="block3motion"} i ardal y Cod ond paid â'i uno i unrhyw flociau eraill eto. Mae gan y bloc hwn gyfesurynnau'r man cychwyn a bydd yn cael ei ddefnyddio yn nes ymlaen i ddychwelyd y corlun:
 
 ```blocks3
 glide (1) secs to x: (-150) y:(-80) // your numbers will be different
 ```
 
-Drag a `glide (1) secs to (random position v)`{:class="block3motion"} block into the Code area and add it to your code at the point you want the sprite to move.
+Llusga floc `llithro (1) eiliad i (safle ar hap v)`{:class="block3motion"} i mewn i ardal y cod a'i ychwanegu at dy god di ar y pwynt rwyt ti am i'r corlun symud iddo.
 
-Click on the dropdown menu and select the name of the sprite you want to `glide`{:class="block3motion"} towards:
+Clicia ar y gwymplen a dewis enw'r corlun rwyt ti am `lithro`{:class="block3motion"} tuag ato:
 
-![The drop down menu for the glide block showing other sprites in the list.](images/glide-menu.png)
+![Y gwymplen ar gyfer y bloc llithro yn dangos corluniau eraill yn y rhestr.](images/glide-menu.png)
 
 ```blocks3
 glide (1) secs to (Cake v)
 ```
 
-![The Stage showing the cat sprite has glided to the cake sprite.](images/example-end.png)
+![Y Llwyfan yn dangos corlun y gath wedi llithro i gorlun y gacen.](images/example-end.png)
 
-Finally, drag the `glide (1) secs to x: y:`{:class="block3motion"} block, that is already in the Code area, to your script to `glide`{:class="block3motion"} back to the start:
+I orffen, llusga'r bloc `llithro (1) eiliad i x: y:`{:class="block3motion"} block, sydd yn ardal y Cod yn barod, i dy sgript i `lithro`{:class="block3motion"} yn ôl i'r dechrau:
 
 ```blocks3
 glide (1) secs to (Cake v)
