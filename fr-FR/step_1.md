@@ -1,30 +1,30 @@
-The `glide`{:class="block3motion"} blocks in Scratch can be used to move a sprite across the Stage.
+Les blocs `glisser`{:class="block3motion"} dans Scratch peuvent être utilisés pour déplacer un sprite sur la scène.
 
-A sprite can `glide`{:class="block3motion"} to a specific point (coordinates), a `random postion`{:class="block3motion"}, the `mouse pointer`{:class="block3motion"}, or to another sprite.
+Un sprite peut `glisser`{:class="block3motion"} vers un point spécifique (coordonnées), une `position aléatoire`{:class="block3motion"}, le `pointeur de la souris`{:class="block3motion"}, ou vers un autre sprite.
 
-Positon your sprites in their starting points then select the sprite that is going to glide:
+Positionne tes sprites à leurs points de départ puis sélectionne le sprite qui va glisser :
 
-![The Stage with both cat and cake sprites in their starting position.](images/example-start.png)
+![La scène avec à la fois des sprites de chat et de gâteau dans leur position de départ.](images/example-start.png)
 
-Drag a `glide (1) secs to x: y:`{:class="block3motion"} block into the Code area but don't attach it to any other blocks yet. This block has the coordinates of the starting point and will be used later to make the sprite return:
+Fais glisser un bloc `glisser en (1) secondes à x: y:`{:class="block3motion"} dans la zone Code mais ne l'attache pas encore à d'autres blocs. Ce bloc a les coordonnées du point de départ et sera utilisé plus tard pour faire revenir le sprite :
 
 ```blocks3
 glide (1) secs to x: (-150) y:(-80) // your numbers will be different
 ```
 
-Drag a `glide (1) secs to (random position v)`{:class="block3motion"} block into the Code area and add it to your code at the point you want the sprite to move.
+Fais glisser un bloc `glisser en (1) secondes à (position aléatoire v)`{:class="block3motion"} dans la zone Code et ajoute-le à ton code à l'endroit où tu souhaites que le sprite se déplace.
 
-Click on the dropdown menu and select the name of the sprite you want to `glide`{:class="block3motion"} towards:
+Clique sur le menu déroulant et sélectionne le nom du sprite que tu souhaites `glisser`{:class="block3motion"} vers :
 
-![The drop down menu for the glide block showing other sprites in the list.](images/glide-menu.png)
+![Le menu déroulant pour le bloc glisser affichant d'autres sprites dans la liste.](images/glide-menu.png)
 
 ```blocks3
 glide (1) secs to (Cake v)
 ```
 
-![The Stage showing the cat sprite has glided to the cake sprite.](images/example-end.png)
+![La scène montrant que le sprite de chat a glissé vers le sprite de gâteau.](images/example-end.png)
 
-Finally, drag the `glide (1) secs to x: y:`{:class="block3motion"} block, that is already in the Code area, to your script to `glide`{:class="block3motion"} back to the start:
+Enfin, fais glisser le bloc `glisser en (1) secondes à x: y:`{:class="block3motion"}, qui se trouve déjà dans la zone Code, vers ton script pour `glisser`{:class="block3motion"} de retour au début :
 
 ```blocks3
 glide (1) secs to (Cake v)
