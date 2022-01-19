@@ -9,7 +9,7 @@ Plaats je sprites in hun startposities en selecteer vervolgens de sprite die gaa
 Sleep een `schuif in (1) sec naar x: y:`{:class="block3motion"} blok naar het codegebied, maar bevestig het nog niet aan andere blokken. Dit blok heeft de coördinaten van het startpunt en zal later worden gebruikt om de sprite terug te laten keren:
 
 ```blocks3
-glide (1) secs to x: (-150) y:(-80) // your numbers will be different
+glide (1) secs to x: (-150) y:(-80) // jouw getallen zullen anders zijn
 ```
 
 Sleep een `schuif in (1) sec naar (willekeurige positie v)`{:class="block3motion"} blok in het codegebied en voeg het toe aan je code op het punt waar je de sprite wilt laten bewegen.
