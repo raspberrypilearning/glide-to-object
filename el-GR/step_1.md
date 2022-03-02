@@ -1,30 +1,30 @@
-The `glide`{:class="block3motion"} blocks in Scratch can be used to move a sprite across the Stage.
+Τα μπλοκ `ολίσθησε`{:class="block3motion"} στο Scratch μπορούν να χρησιμοποιηθούν για τη μετακίνηση ενός αντικειμένου στη Σκηνή.
 
-A sprite can `glide`{:class="block3motion"} to a specific point (coordinates), a `random postion`{:class="block3motion"}, the `mouse pointer`{:class="block3motion"}, or to another sprite.
+Ένα αντικείμενο μπορεί να `ολισθήσει`{:class="block3motion"} προς ένα συγκεκριμένο σημείο (συντεταγμένες), προς μια `τυχαία θέση`{:class="block3motion"}, προς τον `δείκτη ποντικιού`{:class="block3motion"}, ή προς άλλο αντικείμενο.
 
-Positon your sprites in their starting points then select the sprite that is going to glide:
+Τοποθέτησε τα αντικείμενά σου στα σημεία εκκίνησής τους και στη συνέχεια επίλεξε το αντικείμενο που πρόκειται να ολισθήσει:
 
-![The Stage with both cat and cake sprites in their starting position.](images/example-start.png)
+![Η Σκηνή με τα αντικείμενα γάτα και κέικ στην αρχική τους θέση.](images/example-start.png)
 
-Drag a `glide (1) secs to x: y:`{:class="block3motion"} block into the Code area but don't attach it to any other blocks yet. This block has the coordinates of the starting point and will be used later to make the sprite return:
+Σύρε ένα μπλοκ `ολίσθησε (1) δευτ. σε x: y:`{:class="block3motion"} στην περιοχή Κώδικα αλλά μην το προσαρτήσεις σε κανένα άλλο μπλοκ ακόμα. Αυτό το μπλοκ έχει τις συντεταγμένες του σημείου εκκίνησης και θα χρησιμοποιηθεί αργότερα για την επιστροφή του αντικειμένου:
 
 ```blocks3
 glide (1) secs to x: (-150) y:(-80) // your numbers will be different
 ```
 
-Drag a `glide (1) secs to (random position v)`{:class="block3motion"} block into the Code area and add it to your code at the point you want the sprite to move.
+Σύρε ένα μπλοκ `ολίσθησε (1) δευτ. σε (τυχαία θέση v)`{:class="block3motion"} στην περιοχή Κώδικα και πρόσθεσε το στον κώδικά σου στο σημείο που θέλεις να μετακινηθεί το αντικείμενο.
 
-Click on the dropdown menu and select the name of the sprite you want to `glide`{:class="block3motion"} towards:
+Κάνε κλικ στο αναπτυσσόμενο μενού και επίλεξε το όνομα του αντικειμένου που θέλεις να `ολισθήσει`{:class="block3motion"} προς:
 
-![The drop down menu for the glide block showing other sprites in the list.](images/glide-menu.png)
+![Το αναπτυσσόμενο μενού για το μπλοκ ολίσθηση που εμφανίζει άλλα αντικείμενα στη λίστα.](images/glide-menu.png)
 
 ```blocks3
 glide (1) secs to (Cake v)
 ```
 
-![The Stage showing the cat sprite has glided to the cake sprite.](images/example-end.png)
+![Η σκηνή που δείχνει το αντικείμενο γάτας να έχει γλιστρήσει προς το αντικείμενο κέικ.](images/example-end.png)
 
-Finally, drag the `glide (1) secs to x: y:`{:class="block3motion"} block, that is already in the Code area, to your script to `glide`{:class="block3motion"} back to the start:
+Τέλος, σύρε το μπλοκ `ολίσθησε (1) δευτ. σε x: y:`{:class="block3motion"}, που βρίσκεται ήδη στην περιοχή του Κώδικα, στο script σου για `ολίσθηση`{:class="block3motion"} πίσω στην αρχή:
 
 ```blocks3
 glide (1) secs to (Cake v)
