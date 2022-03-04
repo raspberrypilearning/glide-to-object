@@ -1,30 +1,30 @@
-The `glide`{:class="block3motion"} blocks in Scratch can be used to move a sprite across the Stage.
+المقطع البرمجي `انزلق`{: class = "block3motion"} في Scratch يستخدم لتحريك كائن عبر المنصة.
 
-A sprite can `glide`{:class="block3motion"} to a specific point (coordinates), a `random postion`{:class="block3motion"}, the `mouse pointer`{:class="block3motion"}, or to another sprite.
+الكائن يمكن ان `ينزلق`{: فئة = "block3motion"} إلى نقطة محددة (إحداثيات)، و `موضع عشوائي`{: فئة = "block3motion"}، و `مؤشر الفارة`{: فئة = "block3motion"}، أو إلى كائن آخر.
 
-Positon your sprites in their starting points then select the sprite that is going to glide:
+ضع الكائنات المتحركة في نقاط البداية ، ثم حدد الكائن الذي سينزلق:
 
-![The Stage with both cat and cake sprites in their starting position.](images/example-start.png)
+![الخلفية مع كل من الكائنات (القطة والكعك) في وضع البداية.](images/example-start.png)
 
-Drag a `glide (1) secs to x: y:`{:class="block3motion"} block into the Code area but don't attach it to any other blocks yet. This block has the coordinates of the starting point and will be used later to make the sprite return:
+اسحب المقطع البرمجي `انزلق(1) ثانية س: ص:`{: class = "block3motion"} في منطقة المقاطع البرمجية ولكن لا تقم بإرفاقها بأي مقطع برمجي أخر. يحتوي هذا المقطع البرمجي على إحداثيات نقطة البداية وسيتم استخدامها لاحقًا لإعادة الكائن:
 
 ```blocks3
 glide (1) secs to x: (-150) y:(-80) // your numbers will be different
 ```
 
-Drag a `glide (1) secs to (random position v)`{:class="block3motion"} block into the Code area and add it to your code at the point you want the sprite to move.
+اسحب المقطع البرمجي `انزلاق (1) ثانية إلى (الموضع العشوائي)`{: class = "block3motion"} في منطقة البرمجة وأضفه إلى المقطع البرمجي الخاص بك عند النقطة التي تريد أن يتحرك اليها الكائن.
 
-Click on the dropdown menu and select the name of the sprite you want to `glide`{:class="block3motion"} towards:
+انقر على القائمة المنسدلة واختر اسم الكائن الذي تريد `ينزلق`{: فئة = "block3motion"} نحوه:
 
-![The drop down menu for the glide block showing other sprites in the list.](images/glide-menu.png)
+![ القائمة المنسدلة للمقطع البرمجي انزلق تعرض الكائنات الاخرى في القائمة.](images/glide-menu.png)
 
 ```blocks3
 glide (1) secs to (Cake v)
 ```
 
-![The Stage showing the cat sprite has glided to the cake sprite.](images/example-end.png)
+![المنصة تظهر كائن القطة انزلقت نحو الكعكة .](images/example-end.png)
 
-Finally, drag the `glide (1) secs to x: y:`{:class="block3motion"} block, that is already in the Code area, to your script to `glide`{:class="block3motion"} back to the start:
+وأخيرا، اسحب المقطع البرمجي `انزلق(1) ثانية إلى س: ص:`{: فئة = "block3motion"} ، والذي هو موجود في مساحة البرمجة، الى المقطع البرمجي `انزلق`الخاص بك{: فئة = "block3motion"} للعودة الى البداية:
 
 ```blocks3
 glide (1) secs to (Cake v)
