@@ -1,30 +1,30 @@
-The `glide`{:class="block3motion"} blocks in Scratch can be used to move a sprite across the Stage.
+Блоки `ковзати`{:class="block3motion"} у Scratch можна використовувати для переміщення спрайта по Сцені.
 
-A sprite can `glide`{:class="block3motion"} to a specific point (coordinates), a `random postion`{:class="block3motion"}, the `mouse pointer`{:class="block3motion"}, or to another sprite.
+Спрайт може `ковзати`{:class="block3motion"} до конкретної точки (координати), до `випадкова позиція`{:class="block3motion"}, до `вказівник`{:class="block3motion"}, або до іншого спрайта.
 
-Positon your sprites in their starting points then select the sprite that is going to glide:
+Розташуй спрайти у початкових точках, а потім вибери спрайт, який буде ковзати:
 
-![The Stage with both cat and cake sprites in their starting position.](images/example-start.png)
+![Сцена зі спрайтами кота та торта у початковому положенні.](images/example-start.png)
 
-Drag a `glide (1) secs to x: y:`{:class="block3motion"} block into the Code area but don't attach it to any other blocks yet. This block has the coordinates of the starting point and will be used later to make the sprite return:
+Перетягни блок `ковзати (1) сек до x: y:`{:class="block3motion"} в Область коду, але поки що не приєднуй його до інших блоків. Цей блок має координати початкової точки та буде використовуватися надалі для повернення спрайта:
 
 ```blocks3
 glide (1) secs to x: (-150) y:(-80) // your numbers will be different
 ```
 
-Drag a `glide (1) secs to (random position v)`{:class="block3motion"} block into the Code area and add it to your code at the point you want the sprite to move.
+Перетягни блок `ковзати (1) сек до (випадкова позиція v)`{:class="block3motion"} в Область коду і додай його до свого коду в точці, в яку повинен рухатися спрайт.
 
-Click on the dropdown menu and select the name of the sprite you want to `glide`{:class="block3motion"} towards:
+Натисни на розкривне меню і вибери ім'я спрайта, якому ти хочеш `ковзати`{:class="block3motion"}, назустріч:
 
-![The drop down menu for the glide block showing other sprites in the list.](images/glide-menu.png)
+![Розкривне меню для блоку ковзання з відображенням інших спрайтів у списку.](images/glide-menu.png)
 
 ```blocks3
 glide (1) secs to (Cake v)
 ```
 
-![The Stage showing the cat sprite has glided to the cake sprite.](images/example-end.png)
+![На Сцені спрайт кота ковзнув до спрайта торта.](images/example-end.png)
 
-Finally, drag the `glide (1) secs to x: y:`{:class="block3motion"} block, that is already in the Code area, to your script to `glide`{:class="block3motion"} back to the start:
+Наостанок, перетягни блок `ковзати (1) сек до x: y:`{:class="block3motion"}, який вже знаходиться в Області коду, до свого скрипту `ковзати `{:class="block3motion"}, щоб повернутися у початкову точку:
 
 ```blocks3
 glide (1) secs to (Cake v)
