@@ -1,1 +1,1 @@
-your numbers will be different
+x座標、y座標の数値は違っていてもいいです
