@@ -1,8 +1,8 @@
 Los bloques `desplazar`{:class="block3motion"} en Scratch se pueden usar para mover un objeto por el Escenario.
 
-Un objeto se puede `desplazar`{:class="block3motion"} a un punto específico (coordenadas), a una `posición aleatoria`{:class="block3motion"}, a el `puntero del ratón`{:class="block3motion"}, o hacia otro objeto.
+Un objeto se puede `desplazar`{:class="block3motion"} a un punto específico (coordenadas), a una `posición aleatoria`{:class="block3motion"}, al `puntero del ratón`{:class="block3motion"}, o hacia otro objeto.
 
-Coloca tus objetos en su posición de inicio y luego selecciona el objeto que se va a desplazarse:
+Coloca tus objetos en su posición de inicio y luego selecciona el objeto que se va a desplazar:
 
 ![El Escenario con objetos gato y pastel en su posición de inicio.](images/example-start.png)
 
