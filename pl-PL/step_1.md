@@ -1,30 +1,30 @@
-The `glide`{:class="block3motion"} blocks in Scratch can be used to move a sprite across the Stage.
+Bloki `leć`{:class="block3motion"} w Scratchu mogą być używane do przemieszczania duszka po Scenie.
 
-A sprite can `glide`{:class="block3motion"} to a specific point (coordinates), a `random postion`{:class="block3motion"}, the `mouse pointer`{:class="block3motion"}, or to another sprite.
+Duszek może za pomocą `leć`{:class="block3motion"} przemieścić się do konkretnego punktu, `losowej pozycji`{:class="block3motion"}, `wskaźnika myszy`{:class="block3motion"}, lub innego duszka.
 
-Positon your sprites in their starting points then select the sprite that is going to glide:
+Ustaw swoje duszki w ich pozycjach początkowych, a następnie wybierz duszka który ma lecieć:
 
-![The Stage with both cat and cake sprites in their starting position.](images/example-start.png)
+![Scena z duszkami, kotem i ciastem, w ich pozycjach początkowych.](images/example-start.png)
 
-Drag a `glide (1) secs to x: y:`{:class="block3motion"} block into the Code area but don't attach it to any other blocks yet. This block has the coordinates of the starting point and will be used later to make the sprite return:
+Przeciągnij blok `leć (1) sekunde do x: y:`{:class="block3motion"} do obszaru skryptu, ale nie przyczepiaj go jeszcze do żadnego innego bloku. Ten blok ma współrzędne punktu początkowego i będzie poźniej wykorzystany, aby duszek wrócił na swoje miejsce:
 
 ```blocks3
 glide (1) secs to x: (-150) y:(-80) // your numbers will be different
 ```
 
-Drag a `glide (1) secs to (random position v)`{:class="block3motion"} block into the Code area and add it to your code at the point you want the sprite to move.
+Przeciągnij blok `leć (1) sekunde do (losowej pozycji v):`{:class="block3motion"} do obszaru skryptu i dodaj do swojego kodu w miejscu w którym duszek ma się ruszać.
 
-Click on the dropdown menu and select the name of the sprite you want to `glide`{:class="block3motion"} towards:
+Naciśnij listę rozwijaną i wybierz nazwę duszka który ma `lecieć`{:class="block3motion"} w kierunku:
 
-![The drop down menu for the glide block showing other sprites in the list.](images/glide-menu.png)
+![Lista rozwijana bloku leć pokazująca pozostałe duszki na liście.](images/glide-menu.png)
 
 ```blocks3
 glide (1) secs to (Cake v)
 ```
 
-![The Stage showing the cat sprite has glided to the cake sprite.](images/example-end.png)
+![Scena pokazująca duszka kota lecącego do duszka ciasta.](images/example-end.png)
 
-Finally, drag the `glide (1) secs to x: y:`{:class="block3motion"} block, that is already in the Code area, to your script to `glide`{:class="block3motion"} back to the start:
+Na końcu przeciągnij znajdujący się w obszarze skryptu blok `leć (1) sekunde do x: y:`{:class="block3motion"}, aby wykonać polecenie `leć`{:class="block3motion"} z powrotem do punktu początkowego:
 
 ```blocks3
 glide (1) secs to (Cake v)
