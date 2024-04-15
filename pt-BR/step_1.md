@@ -1,30 +1,30 @@
-The `glide`{:class="block3motion"} blocks in Scratch can be used to move a sprite across the Stage.
+O bloco `deslize`{:class="block3motion"} no Scratch pode ser usado para mover um ator pelo Palco.
 
-A sprite can `glide`{:class="block3motion"} to a specific point (coordinates), a `random postion`{:class="block3motion"}, the `mouse pointer`{:class="block3motion"}, or to another sprite.
+Um ator pode `deslizar`{:class="block3motion"} para um ponto específico (coordenadas), uma `posição aleatória`{:class="block3motion"}, o `ponteiro do mouse`{:class="block3motion"}, ou para um outro ator.
 
-Positon your sprites in their starting points then select the sprite that is going to glide:
+Posicione seus atores em seus pontos de partida e selecione o ator que vai deslizar:
 
-![The Stage with both cat and cake sprites in their starting position.](images/example-start.png)
+![O Palco com ambos os atores, gato e bolo, em sua posição inicial.](images/example-start.png)
 
-Drag a `glide (1) secs to x: y:`{:class="block3motion"} block into the Code area but don't attach it to any other blocks yet. This block has the coordinates of the starting point and will be used later to make the sprite return:
+Arraste um bloco `deslize por (1) segs. até x: y:`{:class="block3motion"} para a área de Código, mas não o encaixe em nenhum outro bloco por enquanto. Este bloco tem as coordenadas do ponto inicial e será usado depois para fazer o ator voltar:
 
 ```blocks3
 glide (1) secs to x: (-150) y:(-80) // your numbers will be different
 ```
 
-Drag a `glide (1) secs to (random position v)`{:class="block3motion"} block into the Code area and add it to your code at the point you want the sprite to move.
+Arraste um bloco `deslize por (1) segs. até (posição aleatória v)`{:class="block3motion"} para a área de Código e o encaixe no ponto em que você deseja que seu ator se mova.
 
-Click on the dropdown menu and select the name of the sprite you want to `glide`{:class="block3motion"} towards:
+Clique na lista de opções e selecione o nome do ator para o qual você deseja que seu ator `deslize`{:class="block3motion"}:
 
-![The drop down menu for the glide block showing other sprites in the list.](images/glide-menu.png)
+![A lista de opções do bloco "deslize" mostrando outros atores na lista.](images/glide-menu.png)
 
 ```blocks3
 glide (1) secs to (Cake v)
 ```
 
-![The Stage showing the cat sprite has glided to the cake sprite.](images/example-end.png)
+![O Palco mostrando que o ator "gato" deslizou até o ator "bolo".](images/example-end.png)
 
-Finally, drag the `glide (1) secs to x: y:`{:class="block3motion"} block, that is already in the Code area, to your script to `glide`{:class="block3motion"} back to the start:
+Por fim, arraste para o seu programa o bloco `deslize por (1) segs. para x: y:`{:class="block3motion"}, que já está na área de Código, para que `deslize`{:class="block3motion"} de volta ao início:
 
 ```blocks3
 glide (1) secs to (Cake v)
